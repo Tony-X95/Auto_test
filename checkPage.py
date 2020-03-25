@@ -10,3 +10,7 @@ driver = webdriver.Chrome()
 driver.get("https://www.mgtv.com")
 time.sleep(5)
 print(ec.title_contains("芒果"))
+
+# 及时关闭chromedriver.exe进程，否则占用资源
+driver.close()
+

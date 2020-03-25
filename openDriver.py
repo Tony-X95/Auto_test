@@ -10,3 +10,5 @@ from selenium import webdriver
 # chromedriver.exe放在python目录下或以配置环境变量时
 driver = webdriver.Chrome()
 driver.get("https://www.mgtv.com")
+
+driver.close()
